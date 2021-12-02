@@ -1,0 +1,32 @@
+{
+	"title": "캡스락 to 하이퍼키",
+	"rules": [
+		{
+			"description": "Caps_Lock to Hyperkey",
+			"manipulators": [
+				{
+					"type": "basic",
+					"parameters": {
+						"basic.to_if_alone_timeout_milliseconds": 2000,
+						"basic.to_if_held_down_threshold_milliseconds": 2000
+					},
+					"from": { 
+						"key_code": "caps_lock",
+						"modifiers": { "optional" : [ "any" ] }
+					},
+					"to": [ 
+						{ 
+							"key_code": "left_shift",
+							"modifiers": [
+								"left_control",
+								"left_option",
+								"left_command"
+							]
+						}
+					],
+					"to_if_held_down" : [ { "key_code": "caps_lock" } ]
+				}
+			]
+		}
+	]
+}
