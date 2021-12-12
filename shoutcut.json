@@ -72,12 +72,35 @@
 			]
 		},
 		{
-			"description": "Caps_Lock + 4 : Launch DBeaver.app",
+			"description": "Caps_Lock + 4 : Launch PyCharm CE.app",
 			"manipulators": [
 				{
 					"type": "basic",
 					"from": { 
-						"key_code": "4",
+						"key_code": "5",
+						"modifiers": {
+							"mandatory": [
+								"left_shift",
+								"left_control", 
+								"left_option",
+								"left_command"
+							],
+							"optional": [ "any" ]
+						}
+					},
+					"to": [ 
+						{ "shell_command": "open -a 'PyCharm CE.app'" }
+					]
+				}
+			]
+		},
+		{
+			"description": "Caps_Lock + 5 : Launch DBeaver.app",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": { 
+						"key_code": "5",
 						"modifiers": {
 							"mandatory": [
 								"left_shift",
