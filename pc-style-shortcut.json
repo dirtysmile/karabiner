@@ -360,30 +360,30 @@
                       ]
                     }
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "description": "control+tab => command + Change",
+              "manipulators": [
                 {
-                  "description": "control+tab => command + tab",
-                  "manipulators": [
+                  "type": "basic",
+                  "from": {
+                    "key_code": "tab",
+                    "modifiers": {
+                      "mandatory": [
+                        "control"
+                      ],
+                      "optional": [
+                        "any"
+                      ]
+                    }
+                  },
+                  "to": [
                     {
-                      "type": "basic",
-                      "from": {
-                        "key_code": "tab",
-                        "modifiers": {
-                          "mandatory": [
-                            "control"
-                          ],
-                          "optional": [
-                            "any"
-                          ]
-                        }
-                      },
-                      "to": [
-                        {
-                          "key_code": "tab",
-                          "modifiers": [
-                            "command"
-                          ]
-                        }
+                      "key_code": "tab",
+                      "modifiers": [
+                        "command"
                       ]
                     }
                   ]
