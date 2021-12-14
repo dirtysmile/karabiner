@@ -66,6 +66,60 @@
             ]
         },
         {
+          "description": "Cmd+Home => Cmd+Left",
+          "manipulators": [
+              {
+                  "from": {
+                      "key_code": "home",
+                      "modifiers": {
+                          "mandatory": [
+                              "command"
+                          ],
+                          "optional": [
+                              "any"
+                          ]
+                      }
+                  },
+                  "to": [
+                    {
+                        "key_code": "left_arrow",
+                        "modifiers": [
+                            "command"
+                        ]
+                    }
+                ],
+                  "type": "basic"
+              }
+          ]
+      },
+        {
+          "description": "Cmd+End => Cmd+Right",
+          "manipulators": [
+              {
+                  "from": {
+                      "key_code": "end",
+                      "modifiers": {
+                          "mandatory": [
+                              "command"
+                          ],
+                          "optional": [
+                              "any"
+                          ]
+                      }
+                  },
+                  "to": [
+                    {
+                        "key_code": "right_arrow",
+                        "modifiers": [
+                            "command"
+                        ]
+                    }
+                ],
+                  "type": "basic"
+              }
+          ]
+      },
+        {
             "description": "Cmd+up_arrow => up_arrow",
             "manipulators": [
                 {
@@ -384,6 +438,60 @@
                       "key_code": "tab",
                       "modifiers": [
                         "command"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "description": "control+space => command + space",
+              "manipulators": [
+                {
+                  "type": "basic",
+                  "from": {
+                    "key_code": "left_control",
+                    "modifiers": {
+                      "mandatory": [
+                        "spacebar"
+                      ],
+                      "optional": [
+                        "any"
+                      ]
+                    }
+                  },
+                  "to": [
+                    {
+                      "key_code": "left_command",
+                      "modifiers": [
+                        "spacebar"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "description": "command+space => control + space",
+              "manipulators": [
+                {
+                  "type": "basic",
+                  "from": {
+                    "key_code": "left_command",
+                    "modifiers": {
+                      "mandatory": [
+                        "spacebar"
+                      ],
+                      "optional": [
+                        "any"
+                      ]
+                    }
+                  },
+                  "to": [
+                    {
+                      "key_code": "left_control",
+                      "modifiers": [
+                        "spacebar"
                       ]
                     }
                   ]
