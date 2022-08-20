@@ -49,211 +49,234 @@
 			]
 		},
 		{
-			"description": "Caps_Lock + 3 : Launch Visual Studio Code",
+			"description": "Caps_Lock + 3 : Launch Postman.app",
 			"manipulators": [
 				{
 					"type": "basic",
-					"from": { 
-						"key_code": "3",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'Visual Studio Code.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + 4 : Launch DBeaver.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "4",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'DBeaver.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + 5 : Launch Postman.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
+					"from": {
 						"key_code": "5",
 						"modifiers": {
 							"mandatory": [
 								"left_shift",
-								"left_control", 
+								"left_control",
 								"left_option",
 								"left_command"
 							],
 							"optional": [ "any" ]
 						}
 					},
-					"to": [ 
+					"to": [
 						{ "shell_command": "open -a 'Postman.app'" }
 					]
 				}
 			]
-		},
-		{
-			"description": "Caps_Lock + q : Launch Google Chrome.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "q",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'Google Chrome.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + 9 : Launch Safari.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "9",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'Safari.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + w : Launch Sublime Text.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "w",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'Sublime Text.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + K : Launch KakaoTalk.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "k",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'KakaoTalk.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + G : Launch Google Chat.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "g",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'Google Chat.app'" }
-					]
-				}
-			]
-		},
-		{
-			"description": "Caps_Lock + T : Launch Telegram.app",
-			"manipulators": [
-				{
-					"type": "basic",
-					"from": { 
-						"key_code": "t",
-						"modifiers": {
-							"mandatory": [
-								"left_shift",
-								"left_control", 
-								"left_option",
-								"left_command"
-							],
-							"optional": [ "any" ]
-						}
-					},
-					"to": [ 
-						{ "shell_command": "open -a 'Telegram.app'" }
-					]
-				}
-			]
 		}
+//		{
+//			"description": "Caps_Lock + 3 : Launch Visual Studio Code",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "3",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Visual Studio Code.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + 4 : Launch DBeaver.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "4",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'DBeaver.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + 5 : Launch Postman.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "5",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Postman.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + q : Launch Google Chrome.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "q",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Google Chrome.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + 9 : Launch Safari.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "9",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Safari.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + w : Launch Sublime Text.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "w",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Sublime Text.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + K : Launch KakaoTalk.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "k",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'KakaoTalk.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + G : Launch Google Chat.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "g",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Google Chat.app'" }
+//					]
+//				}
+//			]
+//		},
+//		{
+//			"description": "Caps_Lock + T : Launch Telegram.app",
+//			"manipulators": [
+//				{
+//					"type": "basic",
+//					"from": {
+//						"key_code": "t",
+//						"modifiers": {
+//							"mandatory": [
+//								"left_shift",
+//								"left_control",
+//								"left_option",
+//								"left_command"
+//							],
+//							"optional": [ "any" ]
+//						}
+//					},
+//					"to": [
+//						{ "shell_command": "open -a 'Telegram.app'" }
+//					]
+//				}
+//			]
+//		}
 	]
 }
